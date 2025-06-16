@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--tipografia roja----------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="PaginaPrincipal.css">
+    <script src="PaginaPrincipal.js"></script>
+
+    <title>Hambrientos</title>
+</head>
+<body>
+
+    <!----------------- HEADER y NAVBAR -------------------------->
+    <header>
+        <div class="header1">
+            <div class="header2 contenedor">
+                <div class="soporteCliente">
+                    <i class="fa-solid fa-headset" style="color: #9e1e1e;"></i>
+                    <div class="textoSoporteCliente">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="numero">123-456-7890</span>
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <i class="fa-solid fa-burger" style="color: #9e1e1e;"></i>
+                    <h1 class="logito"><a href="/">Hambrientos</a></h1>
+                </div>
+
+                <div class="usuario">
+                    <a href="index.html"><i class="fa-solid fa-user" style="color: #9e1e1e;"></i></a>
+                    <a href="PaginaPrincipal.html"><i class="fa-solid fa-cart-shopping" style="color: #9e1e1e;"></i></a>
+                    <div class="textoCarrito">
+                        <span class="text">Carrito</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <nav class="navbar1 contenedor">
+                <ul class="menu">
+                    <li><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
+                    <li><a href="PaginaPrincipal.html"><strong>Menú</strong></a></li>              
+                </ul>
+
+                
+            </nav>
+        </div>
+    </header>
+
+    <!-------------- CATALOGO------------------->
+
+    <div class="Burger">
+        <div id="imagen">
+            <img src="CheesBurger.webp">
+        </div>
+        <div class="Dinamico">
+            <div class="NombreBurger">SIMPLE CHESSBURGER</div>
+                <div class="Descripcion">
+                    Pan original, medallón 90g, cheddar, ketchup, mostaza, cebolla brunoise. Con papas fritas.
+                </div>
+                <div class="Precio">$7.000 </div>
+
+                <button class="botonsuma" onclick="sumarPrecio(7000, this)">+</button>
+                <span class="contador">0</span>
+                <button class="botonresta" onclick="restarPrecio(7000, this)">-</button> 
+    
+
+        </div>
+    </div>
+    
+
+    <div class="Burger">
+        <div id="imagen">
+            <img src="DobleCheesBurger.webp">
+        </div>
+        <div class="Dinamico">
+            <div class="NombreBurger">DOBLE CHESSBURGER</div>
+                <div class="Descripcion">
+                    Doble carne (100 gr c/u), cuadruple cheddar en pan de papa neutro
+                </div>
+                <div class="Precio">$10.000 </div>
+                <button class="botonsuma" onclick="sumarPrecio(10000, this)">+</button> 
+                <span class="contador">0</span>
+                <button class="botonresta" onclick="restarPrecio(10000, this)">-</button> 
+
+            </div>
+        </div>
+    </div>
+
+    <div class="Burger">
+        <div id="imagen">
+            <img src="HamburguesaClasica.webp">
+        </div>
+        <div class="Dinamico">
+            <div class="NombreBurger">Hamburguesa Clasica</div>
+                <div class="Descripcion">
+                    Medallón de carne, jamón, cheddar, lechuga, tomate y salsa 1/4 de libra en pan de papa.
+                </div>
+            <div class="Precio">$10.000 </div>
+
+            <button class="botonsuma" onclick="sumarPrecio(10000, this)">+</button>
+            <span class="contador">0</span> 
+            <button class="botonresta" onclick="restarPrecio(10000, this)">-</button> 
+
+        </div>
+    </div>
+    
+
+    <div class="Burger">
+        <div id="imagen">
+            <img src="HamburguesaBajoncito.webp">
+        </div>
+        <div class="Dinamico">
+            <div class="NombreBurger">Hamburguesa Bajoncito</div>
+                <div class="Descripcion">
+                    Medallón de carne con cheddar, panceta ahumada y manteca de hierbas en pan de papa.
+                </div>
+            <div class="Precio">$8.000 </div>
+            <button class="botonsuma" onclick="sumarPrecio(8000, this)">+</button> 
+            <span class="contador">0</span>
+            <button class="botonresta" onclick="restarPrecio(8000, this)">-</button>  
+
+        </div>
+    </div>
+    
+    <div class="Burger">
+        <div id="imagen">
+            <img src="HamburguesaHambrientos.webp">
+        </div>
+        <div class="Dinamico">
+            <div class="NombreBurger">Hamburguesa Hambrientos</div>
+                <div class="Descripcion">
+                    Doble carne, doble cheddar, pulled pork, tomate, pepinillos, cebolla caramelizada, lechuga y salsa BBQ casera en pan de papa.
+                </div>
+            <div class="Precio">$13.000 </div>
+            <button class="botonsuma" onclick="sumarPrecio(13000, this)">+</button> 
+            <span class="contador">0</span>
+            <button class="botonresta" onclick="restarPrecio(13000, this)">-</button>  
+        </div>
+    </div>
+
+    <div class="Burger">
+        <div id="imagen">
+            <img src="HamburguesaVeggie.webp">
+        </div>
+        <div class="Dinamico">
+            <div class="NombreBurger"> Hamburguesa Veggie</div>
+                <div class="Descripcion">
+                    Doble medallón NotCo. (100% vegano) cheddar,huevo, aros de cebolla y salsa puerto en pan de papa.
+            </div>
+            <div class="Precio">$9.000 </div>
+            <button class="botonsuma" onclick="sumarPrecio(9000, this)">+</button> 
+            <span class="contador">0</span>
+            <button class="botonresta" onclick="restarPrecio(9000, this)">-</button>
+        </div>
+    </div>
+
+    
+    <!-------------- CUADRADO DEL TOTAL------------------->
+    <div class="Total">
+        <div><strong>Total</strong></div>
+        <br>
+        <div id="total">$0</div>
+
+        <div class="CUPON"><strong>Cupón de descuento</strong></div>
+        <div class="DESCUENTO">
+        <input type="descuento" id="descuento" placeholder="Ingrese cupon de descuento">
+        <button class="botonesTotal" onclick="Descuento()">Aplicar</button>
+        </div>
+
+
+        <!-----------------PAGAR-------------->
+        <br>
+        <div class="Pedido">
+        <button class="botonesTotal" onclick="pedido()">Finalizar pedido</button>
+        </div>
+    </div>
+    <br>
+
+   <!--FOOTER-->
+    <footer>
+        <p>&copy; 2025 Hambrientos. Todos los derechos reservados.</p>
+    </footer>
+
+ <script src="https://kit.fontawesome.com/6a2fe7a83a.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+html{
+  background-color: #ffe0b2;
+}
+ 
+.Burger{                    /* ESTILO DEL RECUADRO COMPLETO*/
+    display: flex;
+    align-items: center;
+    background-color: #9e1e1e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 600px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: #ff6f00;
+    border-radius: 10px;
+    
+    
+}
+#imagen img{                 /* DISEÑO DE LA IMAGEN SOLO*/
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 16px;
+}
+.Dinamico{
+    flex: 1;
+}
+.NombreBurger{              /* ESTILO TITULO DE LA HAMBUERGUESA*/
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 6px;
+ 
+}
+.Descripcion{               /* ESTILO DESCRIPCION*/
+    font-size: 17px;
+    color: #eee;
+    margin-bottom: 8px;
+   
+}
+.Precio{                     /* PRECIO*/
+    font-weight: bold;
+    color: #ffe0b2;
+
+}
+.Boton{                      /* ESILO DEL CARRITO*/
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #be0000;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.PalabraTotal{
+font-size: 17px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+.Total {                    /* CUADRADO CON EL ESTILO*/
+  width: 280px;
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+  
+}
+
+.CUPON {                        /* BOX*/
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 17px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+ 
+.DESCUENTO {                   /* DISTANCIA BOTON CON EL CUPON*/
+  display: flex;
+  gap: 5px;
+}
+
+.estiloboton {                   /* BOTON DEL CUPON */
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*BOTON SUMA*/
+.botonsuma{
+  background-color: #eee;
+  color: #e65100;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.botonresta{
+  background-color: rgb(190, 188, 188);
+  color: #e65100;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.Total {                    /* CUADRADO CON EL ESTILO*/
+  width: 280px;
+  background-color: #9e1e1e;
+  border: 1px solid #eee;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  color: #eee;
+  
+}
+
+.CUPON {                        /* BOX*/
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+  border-radius: 10px;
+  color: #ffe0b2;
+  
+}
+ 
+.DESCUENTO {                   /* DISTANCIA BOTON CON EL CUPON*/
+  display: flex;
+  gap: 10px;
+
+}
+
+.botonesTotal{
+  background-color: #ff6f00;
+  color: #ffe0b2;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  
+}
+.Pedido {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+/*--------------------------------- Principio header y navbar -----------------*/
+/*Tipografia*/
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+      --rojo-base: #6f0200;
+      --rojo-vibrante: #d32f2f;
+      --rojo-bordo: #9e1e1e;
+      --naranja-quemado: #e65100;
+      --naranja-vibrante: #ff6f00;
+      --durazno-claro: #ffe0b2;
+}
+
+html{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{ /*para centrar el contenido*/
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header1{
+    background-color: #ff6f00;
+    width: 100%;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.soporteCliente{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.soporteCliente i{
+    font-size: 40px;
+}
+
+.textoSoporteCliente{
+    display: flex;
+    flex-direction: column;
+    color: #ffe0b2;
+    font-size: 18px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo i{
+    font-size: 60px;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #6f0200;
+    font-size: 70px;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+.usuario{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.fa-user{
+    font-size: 30px;
+    color: #6f0200;
+    padding-right: 15px;
+    border-right: 1px solid #9e1e1e;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    color: #6f0200;
+    
+}
+
+.textoCarrito{
+   display: flex;
+    flex-direction: column;
+    color: #ffe0b2;
+    font-size: 18px;
+}
+
+.navbar{
+    background-color: #e65100;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #6f0200;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu a:hover{
+    color: #ffe0b2;
+}
+ /*---------------------- Fin de header y navbar -------------------------*/
+
+
+
+
+
+
+
+/*--------------------footer--------------------*/
+footer {
+  background-color: #6f0200;
+  color: #ffe0b2;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+}

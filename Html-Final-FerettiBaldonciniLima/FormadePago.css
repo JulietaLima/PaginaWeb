@@ -1,0 +1,61 @@
+
+
+/*PAGINA*/
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* TICKET */
+
+/* DISEÑO */
+    .ticket {               
+        background-color: #fff;
+        border: 2px dashed #0e892d;
+        border-radius: 10px;
+        width: 320px;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+/* LINEA PARA SEPARAR */
+    .linea {
+        border-top: 1px dashed #000;
+        margin: 20px 0;
+    }
+
+/* OPCIONES */
+
+    .opciones {
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+/* BOTON CONFIMAR COMPRA */
+
+    .boton-confirmar {
+        margin-top: 20px;
+        padding: 8px 16px;
+        font-size: 16px;
+        margin-left: 110px;
+        border: none;
+        background-color: #821313;
+        color: #fff;
+        border-radius: 5px;  
+    } 
+/*BOTON VOLVER*/
+    .volver{
+        padding: 8px 16px;
+        font-size: 16px;
+        border: none;
+        background-color: #821313;
+        color: #fff;
+        border-radius: 5px;  
+    }
+ 

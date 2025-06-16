@@ -1,0 +1,291 @@
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+      --rojo-base: #6f0200;
+      --rojo-vibrante: #d32f2f;
+      --rojo-bordo: #9e1e1e;
+      --naranja-quemado: #e65100;
+      --naranja-vibrante: #ff6f00;
+      --durazno-claro: #ffe0b2;
+}
+
+html{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{ /*para centrar el contenido*/
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header1{
+    background-color: #ff6f00;
+    width: 100%;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.soporteCliente{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.soporteCliente i{
+    font-size: 40px;
+}
+
+.textoSoporteCliente{
+    display: flex;
+    flex-direction: column;
+    color: #ffe0b2;
+    font-size: 18px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo i{
+    font-size: 60px;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #6f0200;
+    font-size: 70px;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+.usuario{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.fa-user{
+    font-size: 30px;
+    color: #6f0200;
+    padding-right: 15px;
+    border-right: 1px solid #9e1e1e;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    color: #6f0200;
+    
+}
+
+.textoCarrito{
+    display: flex;
+    flex-direction: column;
+    color: #ffe0b2;
+    font-size: 18px;
+}
+
+.navbar{
+    background-color: #e65100;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #6f0200;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu a:hover{
+    color: #ffe0b2;
+}
+
+/*------------------------ Banner -----------------------*/
+.banner{
+    background-image: url("imagenes/Banner7.png");
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenidoBanner{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 150px ;
+}
+
+.contenidoBanner p{
+    color: #ffe0b2;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.contenidoBanner h2{
+    color: #eee;
+    font-size: 2.7rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contenidoBanner h3{
+    color: #eee;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1;
+}
+.contenidoBanner a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #6f0200;
+    background-color: #ffe0b2;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+/*---------------- main --------------------*/
+.contenidoMain{
+    background-color: #ffe0b2;
+}
+
+.caracteristicas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.cartas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 1.1rem 0;
+    margin: 1rem;
+
+    font-size: 1rem;
+    color: #ff6f00;
+}
+
+.contenidoCartas{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+
+.contenidoCartas span{
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #e65100;
+}
+
+.contenidoCartas p{
+    color: #ff6f00;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+
+.fa-car-side{
+    margin-left: 0.7rem;
+}
+
+.fa-wallet{
+    margin-left: 0.7rem;
+}
+
+.fa-gift{
+    margin-left: 0.7rem;
+}
+
+.fa-headset{
+    margin-left: 0.7rem;
+}
+
+/*---------- MAPAS --------*/
+.mapas {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.location {
+    width: 45%;
+    text-align: center;
+}
+
+.mapa iframe {
+    width: 70%;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.text h2 {
+    display: flex;
+    flex-direction: column;
+    color: #6f0200;
+    font-size: 30px;
+}
+
+.text p {
+    color: #ff6f00;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+
+/*--------------------footer--------------------*/
+footer {
+  background-color: #6f0200;
+  color: #ffe0b2;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Realizado</title>
+    
+    <!--tipografia roja----------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="index.css">
+    <script src="PaginaPrincipal.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header1">
+            <div class="header2 contenedor">
+                <div class="soporteCliente">
+                    <i class="fa-solid fa-headset" style="color: #9e1e1e;"></i>
+                    <div class="textoSoporteCliente">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="numero">123-456-7890</span>
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <i class="fa-solid fa-burger" style="color: #9e1e1e;"></i>
+                    <h1 class="logito"><a href="/">Hambrientos</a></h1>
+                </div>
+
+                <div class="usuario">
+                    <a href="index.html"><i class="fa-solid fa-user" style="color: #9e1e1e;"></i></a>
+                    <a href="PaginaPrincipal.html"><i class="fa-solid fa-cart-shopping" style="color: #9e1e1e;"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <nav class="navbar1 contenedor">
+                <ul class="menu">
+                 
+                    <li><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
+                    <li><a href="PaginaPrincipal.html"><strong>Menú</strong></a></li>              
+                </ul>
+
+                
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <br><br><br>
+        <h1 class="enCamino">Tu pedido esta en camino! </h1>
+        <h3>Total a pagar: $<span id="monto"></span></h3>
+        <body onload="total1()"></body>
+    </div>
+
+   
+    
+
+
+    <script src="https://kit.fontawesome.com/6a2fe7a83a.js" crossorigin="anonymous"></script>
+</body>
+</html>

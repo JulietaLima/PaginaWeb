@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="PaginaPrincipal.js"></script>
+    
+    <!--tipografia roja----------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Index.css">
+    
+    <script src="PaginaPrincipal.js"></script>
+
+    <title>Hambrientos</title>
+</head>
+<body>
+
+    <!----------------- HEADER y NAVBAR -------------------------->
+    <header>
+        <div class="header1">
+            <div class="header2 contenedor">
+                <div class="soporteCliente">
+                    <i class="fa-solid fa-headset" style="color: #9e1e1e;"></i>
+                    <div class="textoSoporteCliente">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="numero">123-456-7890</span>
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <i class="fa-solid fa-burger" style="color: #9e1e1e;"></i>
+                    <h1 class="logito"><a href="/">Hambrientos</a></h1>
+                </div>
+
+                <div class="usuario">
+                    <a href="index.html"><i class="fa-solid fa-user" style="color: #9e1e1e;"></i></a>
+                    <a href="PaginaPrincipal.html"><i class="fa-solid fa-cart-shopping" style="color: #9e1e1e;"></i></a>
+                    <div class="textoCarrito">
+                        <span class="text">Carrito</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <nav class="navbar1 contenedor">
+                <ul class="menu">
+                 
+                    <li><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
+                    <li><a href="PaginaPrincipal.html"><strong>Menú</strong></a></li>              
+                </ul>
+
+                
+            </nav>
+        </div>
+    </header>
+
+    <div><h2><STRong>Ingrese sus datos</STRong></h2></div>
+    
+
+   <div class="formaDePago">
+        <form>
+            <p>Medios de Pago  <select id="Pago"><br>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Naranja">Naranja</option>
+                <option value="Efectivo">Efectivo</option>
+            </select></p>
+            <div id="imagen">
+                <img src="imagenes/mediosdepago.png">
+            </div>
+            <p>DNI: <input type="text" id="dni" placeholder="ingrese su dni"></input></p><br>
+            <p>Correo: <input type="text" id="correo" placeholder="ingrese su correo"></input></p><br>
+            <p>Dirección: <input type="text" id="direccion" placeholder="ingrese su direccion"></input></p><br>
+            <p>Telefono: <input type="text" id="telefono" placeholder="ingrese su numero de telefono"></input></p><br>
+            <button type="button" onclick="enviar()">Enviar</button>
+            <button type="button" onclick="volver()">Volver</button>
+            <br>
+        </form>
+        
+    </div> <br>
+
+
+    <footer>
+        <p>&copy; 2025 Hambrientos. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/6a2fe7a83a.js" crossorigin="anonymous"></script>
+</body>
+</html>
